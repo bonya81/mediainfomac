@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>MediaInfo_Stream_General</key>
+		<array>
+			<dict>
+				<key>property</key>
+				<string>VideoCount</string>
+				<key>visualName</key>
+				<string>Total Video Streams for this File</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>AudioCount</string>
+				<key>visualName</key>
+				<string>Total Audio Streams for this File</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Video_Codec_List</string>
+				<key>visualName</key>
+				<string>Video Codecs Used</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Audio_Codec_List</string>
+				<key>visualName</key>
+				<string>Audio Codecs Used</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Format/String</string>
+				<key>visualName</key>
+				<string>File Format</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>PlayTime/String</string>
+				<key>visualName</key>
+				<string>Play Time</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>FileSize/String</string>
+				<key>visualName</key>
+				<string>Total File Size</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate/String</string>
+				<key>visualName</key>
+				<string>Total Stream BitRate</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Min/String</string>
+				<key>visualName</key>
+				<string>Total Stream BitRate (Min)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Max/String</string>
+				<key>visualName</key>
+				<string>Total Stream BitRate (Max)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Nominal/String</string>
+				<key>visualName</key>
+				<string>Total Stream BitRate (Nominal)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Mode</string>
+				<key>visualName</key>
+				<string>Stream BitRate Mode</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Title</string>
+				<key>visualName</key>
+				<string>Title (Tag)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Title/More</string>
+				<key>visualName</key>
+				<string>SubTitle (Tag)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Copyright</string>
+				<key>visualName</key>
+				<string>Copyright (Tag)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encoded_Application</string>
+				<key>visualName</key>
+				<string>Encoded with</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encoded_Library</string>
+				<key>visualName</key>
+				<string>Encoding Library</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Cover_Datas</string>
+				<key>visualName</key>
+				<string>Cover</string>
+				<key>important</key>
+				<true/>
+			</dict>
+		</array>
+	<key>MediaInfo_Stream_Video</key>
+		<array>
+			<dict>
+				<key>property</key>
+				<string>Codec</string>
+				<key>visualName</key>
+				<string>Codec</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec/Info</string>
+				<key>visualName</key>
+				<string>Codec (Human Name)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec/URL</string>
+				<key>visualName</key>
+				<string>Codec URL</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec/CC</string>
+				<key>visualName</key>
+				<string>Codec (Container Code)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec_Profile</string>
+				<key>visualName</key>
+				<string>Codec Profile</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>FrameRate/String</string>
+				<key>visualName</key>
+				<string>Frame Rate</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>FrameCount</string>
+				<key>visualName</key>
+				<string>Total Frames</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Standard</string>
+				<key>visualName</key>
+				<string>Video Standard</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Interlacement/String</string>
+				<key>visualName</key>
+				<string>Interlacement</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec_Description</string>
+				<key>visualName</key>
+				<string>Codec Description</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec_Settings/PacketBitStream</string>
+				<key>visualName</key>
+				<string>Codec Settings (Packet BitStream)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec_Settings/BVOP</string>
+				<key>visualName</key>
+				<string>Codec Settings (BVOP)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec_Settings/QPel</string>
+				<key>visualName</key>
+				<string>Codec Settings (QPel)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec_Settings/GMC/String</string>
+				<key>visualName</key>
+				<string>Codec Settings (GMC)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec_Settings/Matrix</string>
+				<key>visualName</key>
+				<string>Codec Settings (Matrix)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>PlayTime/String1</string>
+				<key>visualName</key>
+				<string>Video Stream Length</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate/String</string>
+				<key>visualName</key>
+				<string>Video Stream BitRate</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Min/String</string>
+				<key>visualName</key>
+				<string>Video Stream BitRate (Min)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Max/String</string>
+				<key>visualName</key>
+				<string>Video Stream BitRate (Max)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Nominal/String</string>
+				<key>visualName</key>
+				<string>Video Stream BitRate (Nominal)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Mode</string>
+				<key>visualName</key>
+				<string>Video Stream BitRate Mode</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Resolution/String</string>
+				<key>visualName</key>
+				<string>Bit Depth</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>StreamSize/String</string>
+				<key>visualName</key>
+				<string>Video Stream Size</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Title</string>
+				<key>visualName</key>
+				<string>Video Stream Title</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encoded_Library</string>
+				<key>visualName</key>
+				<string>Video Encoder</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encoded_Library_Settings</string>
+				<key>visualName</key>
+				<string>Video Encoder (Settings)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Language/String</string>
+				<key>visualName</key>
+				<string>Video Stream Language</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encoded_Date</string>
+				<key>visualName</key>
+				<string>Date of Original Encoding</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encrypted</string>
+				<key>visualName</key>
+				<string>Is this track encrypted ?</string>
+				<key>important</key>
+				<true/>
+			</dict>
+		</array>
+	<key>MediaInfo_Stream_Audio</key>
+		<array>
+			<dict>
+				<key>property</key>
+				<string>Codec</string>
+				<key>visualName</key>
+				<string>Codec</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec/Info</string>
+				<key>visualName</key>
+				<string>Codec (Human Name)</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec/URL</string>
+				<key>visualName</key>
+				<string>Codec URL</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec/CC</string>
+				<key>visualName</key>
+				<string>Codec (Container Code)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Codec_Profile</string>
+				<key>visualName</key>
+				<string>Codec Profile</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>PlayTime/String1</string>
+				<key>visualName</key>
+				<string>Audio Stream Length</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate/String</string>
+				<key>visualName</key>
+				<string>Audio Stream BitRate</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Min/String</string>
+				<key>visualName</key>
+				<string>Audio Stream BitRate (Min)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Max/String</string>
+				<key>visualName</key>
+				<string>Audio Stream BitRate (Max)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Nominal/String</string>
+				<key>visualName</key>
+				<string>Audio Stream BitRate (Nominal)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>BitRate_Mode</string>
+				<key>visualName</key>
+				<string>Audio Stream BitRate Mode</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Channel(s)</string>
+				<key>visualName</key>
+				<string>Number of Audio Channels</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>ChannelPositions</string>
+				<key>visualName</key>
+				<string>Audio Channel's Positions</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>SamplingRate/String</string>
+				<key>visualName</key>
+				<string>Sampling Rate</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Resolution/String</string>
+				<key>visualName</key>
+				<string>Bit Depth</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Delay/String</string>
+				<key>visualName</key>
+				<string>Audio Stream Delay</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>ReplayGain_Gain</string>
+				<key>visualName</key>
+				<string>Replay Gain</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>ReplayGain_Peak</string>
+				<key>visualName</key>
+				<string>Replay Gain (Peak)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>StreamSize/String</string>
+				<key>visualName</key>
+				<string>Audio Stream Size</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Title</string>
+				<key>visualName</key>
+				<string>Audio Stream Title</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encoded_Library</string>
+				<key>visualName</key>
+				<string>Audio Encoder</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encoded_Library_Settings</string>
+				<key>visualName</key>
+				<string>Audio Encoder (Settings)</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Language/String</string>
+				<key>visualName</key>
+				<string>Audio Stream Language</string>
+				<key>important</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encoded_Date</string>
+				<key>visualName</key>
+				<string>Date of Original Encoding</string>
+				<key>important</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>property</key>
+				<string>Encrypted</string>
+				<key>visualName</key>
+				<string>Is this track encrypted ?</string>
+				<key>important</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>
+

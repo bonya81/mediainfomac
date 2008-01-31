@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Accompaniment</key>
+	<string>Accompaniment</string>
+	<key>Actor</key>
+	<string>Actor</string>
+	<key>Actor_Character</key>
+	<string>Actor Character</string>
+	<key>Album</key>
+	<string>Album</string>
+	<key>Album/Sort</key>
+	<string>Album Sort</string>
+	<key>Archival_Location</key>
+	<string>Archival Location</string>
+	<key>Arranger</key>
+	<string>Arranger</string>
+	<key>ArtDirector</key>
+	<string>Art Director</string>
+	<key>AssistantDirector</key>
+	<string>Assistant Director</string>
+	<key>AudioCount</key>
+	<string>Audio Streams Count</string>
+	<key>Audio_Codec_List</key>
+	<string>Audio Codec List</string>
+	<key>Audio_Language_List</key>
+	<string>Audio Language List</string>
+	<key>BPM</key>
+	<string>BPM</string>
+	<key>BarCode</key>
+	<string>BarCode</string>
+	<key>BitRate/String</key>
+	<string>BitRate</string>
+	<key>BitRate_Max/String</key>
+	<string>Maximum Bitrate</string>
+	<key>BitRate_Min/String</key>
+	<string>Minimum Bitrate</string>
+	<key>BitRate_Mode</key>
+	<string>Bitrate Mode</string>
+	<key>BitRate_Nominal/String</key>
+	<string>Nominal Bitrate</string>
+	<key>CatalogNumber</key>
+	<string>Catalog Number</string>
+	<key>Chapter</key>
+	<string>Chapter</string>
+	<key>ChaptersCount</key>
+	<string>Chapters Count</string>
+	<key>Chapters_Codec_List</key>
+	<string>Chapters Codec List</string>
+	<key>Chapters_Language_List</key>
+	<string>Chapters Language List</string>
+	<key>Choregrapher</key>
+	<string>Choreographer</string>
+	<key>CoProducer</key>
+	<string>Co-Producer</string>
+	<key>Codec</key>
+	<string>Codec</string>
+	<key>Codec/Extensions</key>
+	<string>Codec Extensions</string>
+	<key>Codec/Family</key>
+	<string>Codec Family</string>
+	<key>Codec/Info</key>
+	<string>Codec Info</string>
+	<key>Codec/String</key>
+	<string>Codec (Human Name)</string>
+	<key>Codec/Url</key>
+	<string>Codec URL</string>
+	<key>Codec_Settings</key>
+	<string>Codec Settings</string>
+	<key>Codec_Settings_Automatic</key>
+	<string>Codec Settings Automatic</string>
+	<key>Collection</key>
+	<string>Collection</string>
+	<key>Comic</key>
+	<string>Comic</string>
+	<key>Comic/Position_Total</key>
+	<string>Comic (Position Total)</string>
+	<key>Comment</key>
+	<string>Comment</string>
+	<key>CompleteName</key>
+	<string>Complete Name</string>
+	<key>Composer</key>
+	<string>Composer</string>
+	<key>Composer/Nationality</key>
+	<string>Composer Natilnality</string>
+	<key>Conductor</key>
+	<string>Conductor</string>
+	<key>ContentType</key>
+	<string>Content Type</string>
+	<key>Copyright</key>
+	<string>Copyright</string>
+	<key>Copyright/Url</key>
+	<string>Copyright URL</string>
+	<key>CostumeDesigner</key>
+	<string>Costume Designer</string>
+	<key>Cover</key>
+	<string>Cover</string>
+	<key>Cover_Datas</key>
+	<string>Cover Datas</string>
+	<key>DataSize</key>
+	<string>Data Size</string>
+	<key>Description</key>
+	<string>Description</string>
+	<key>Director</key>
+	<string>Director</string>
+	<key>DirectorOfPhotography</key>
+	<string>Director Of Photography</string>
+	<key>DistributedBy</key>
+	<string>Distributed by</string>
+	<key>Domain</key>
+	<string>Domain</string>
+	<key>EditedBy</key>
+	<string>Edited by</string>
+	<key>EncodedBy</key>
+	<string>Encoded by</string>
+	<key>Encoded_Application</key>
+	<string>Encoding Software</string>
+	<key>Encoded_Application/Url</key>
+	<string>Encoding Software URL</string>
+	<key>Encoded_Date</key>
+	<string>Date of Original Encoding</string>
+	<key>Encoded_Library</key>
+	<string>Encoded with Library</string>
+	<key>Encoded_Library_Settings</key>
+	<string>Encoded with Library Settings</string>
+	<key>ExecutiveProducer</key>
+	<string>Executive Procuder</string>
+	<key>FileExtension</key>
+	<string>File Extension</string>
+	<key>FileName</key>
+	<string>File Name</string>
+	<key>FileSize/String4</key>
+	<string>File Size</string>
+	<key>FolderName</key>
+	<string>Folder Name</string>
+	<key>Format</key>
+	<string>Format</string>
+	<key>Format/Extensions</key>
+	<string>Format Extensions</string>
+	<key>Format/Family</key>
+	<string>Format Family</string>
+	<key>Format/Info</key>
+	<string>Format Info</string>
+	<key>Format/String</key>
+	<string>Format String</string>
+	<key>Format/Url</key>
+	<string>Format URL</string>
+	<key>Format_Settings</key>
+	<string>Format Settings</string>
+	<key>Format_Settings_Automatic</key>
+	<string>Format Settings Automatic</string>
+	<key>Genre</key>
+	<string>Genre</string>
+	<key>HeaderSize</key>
+	<string>Header Size</string>
+	<key>ICRA</key>
+	<string>ICRA</string>
+	<key>ISBN</key>
+	<string>ISBN</string>
+	<key>ISRC</key>
+	<string>ISRC</string>
+	<key>ImageCount</key>
+	<string>Number of Images</string>
+	<key>Image_Codec_List</key>
+	<string>Image Codec List</string>
+	<key>Image_Language_List</key>
+	<string>Image Language List</string>
+	<key>Interleaved</key>
+	<string>Interleaved</string>
+	<key>Keywords</key>
+	<string>Keywords</string>
+	<key>LCCN</key>
+	<string>LCCN</string>
+	<key>Label</key>
+	<string>Label</string>
+	<key>LabelCode</key>
+	<string>Label Code</string>
+	<key>LawRating</key>
+	<string>Law Rating</string>
+	<key>Lyricist</key>
+	<string>Lyricist</string>
+	<key>Lyrics</key>
+	<string>Lyrics</string>
+	<key>MasteredBy</key>
+	<string>Mastered by</string>
+	<key>Mastered_Date</key>
+	<string>Mastered Date</string>
+	<key>MenuCount</key>
+	<string>Number of Menu Streams</string>
+	<key>Menu_Codec_List</key>
+	<string>Menu Codec LIst</string>
+	<key>Menu_Language_List</key>
+	<string>Menu Language List</string>
+	<key>Mood</key>
+	<string>Mood</string>
+	<key>Movie</key>
+	<string>Movie</string>
+	<key>Movie/More</key>
+	<string>Movie (extra)</string>
+	<key>Movie/Url</key>
+	<string>Movie URL</string>
+	<key>Original/Album</key>
+	<string>Original Album</string>
+	<key>Original/Lyricist</key>
+	<string>Original Lyricist</string>
+	<key>Original/Movie</key>
+	<string>Original Movie</string>
+	<key>Original/Part</key>
+	<string>Original Part</string>
+	<key>Original/Performer</key>
+	<string>Original Performer</string>
+	<key>Original/Released_Date</key>
+	<string>Original Release Date</string>
+	<key>Original/Track</key>
+	<string>Original Track</string>
+	<key>Owner</key>
+	<string>Owner</string>
+	<key>Part</key>
+	<string>Part</string>
+	<key>Part/Position</key>
+	<string>Part Position</string>
+	<key>Part/Position_Total</key>
+	<string>Part Position Total</string>
+	<key>Performer</key>
+	<string>Performer</string>
+	<key>Performer/Sort</key>
+	<string>Performer Sort</string>
+	<key>Performer/Url</key>
+	<string>Performer URL</string>
+	<key>Period</key>
+	<string>Period</string>
+	<key>PlayTime/String</key>
+	<string>Playtime</string>
+	<key>PlayTime/String3</key>
+	<string>Playtime (raw)</string>
+	<key>Producer</key>
+	<string>Producer</string>
+	<key>Producer_Copyright</key>
+	<string>Producer ©</string>
+	<key>ProductionDesigner</key>
+	<string>Production Designer</string>
+	<key>ProductionStudio</key>
+	<string>Production Studio</string>
+	<key>Publisher</key>
+	<string>Publisher</string>
+	<key>Publisher/URL</key>
+	<string>Publisher URL</string>
+	<key>RadioStation</key>
+	<string>Radio Station</string>
+	<key>RadioStation/Owner</key>
+	<string>Radio Station Owner</string>
+	<key>RadioStation/Url</key>
+	<string>Radio Station URL</string>
+	<key>Rating </key>
+	<string>Rating</string>
+	<key>Recorded_Date</key>
+	<string>Recorded Date</string>
+	<key>Recorded_Location</key>
+	<string>Recorded Location</string>
+	<key>Released_Date</key>
+	<string>Released Date</string>
+	<key>RemixedBy</key>
+	<string>Remixed by</string>
+	<key>ScreenplayBy</key>
+	<string>Screenplay by</string>
+	<key>Season</key>
+	<string>Season</string>
+	<key>SoundEngineer</key>
+	<string>Sound Engineer</string>
+	<key>StreamSize/String</key>
+	<string>Stream Size</string>
+	<key>SubTrack</key>
+	<string>Sub Track</string>
+	<key>Subject</key>
+	<string>Subject</string>
+	<key>Summary</key>
+	<string>Summary</string>
+	<key>Synopsys</key>
+	<string>Synopsys</string>
+	<key>Tagged_Application</key>
+	<string>Tagged Application</string>
+	<key>Tagged_Date</key>
+	<string>Tagged Date</string>
+	<key>TermsOfUse</key>
+	<string>Terms of Use</string>
+	<key>TextCount</key>
+	<string>Text Count</string>
+	<key>Text_Codec_List</key>
+	<string>Text Codec List</string>
+	<key>Text_Language_List</key>
+	<string>Text Language List</string>
+	<key>ThanksTo</key>
+	<string>Thanks to</string>
+	<key>Title</key>
+	<string>Title</string>
+	<key>Title/More</key>
+	<string>Title (extra)</string>
+	<key>Title/Url</key>
+	<string>Title URL</string>
+	<key>Track</key>
+	<string>Track</string>
+	<key>Track/More</key>
+	<string>Track (more)</string>
+	<key>Track/Position</key>
+	<string>Track Position</string>
+	<key>Track/Position_Total</key>
+	<string>Track Position (total)</string>
+	<key>Track/Sort</key>
+	<string>Track Sort</string>
+	<key>Track/Url</key>
+	<string>Track URL</string>
+	<key>VideoCount</key>
+	<string>Video Streams Count</string>
+	<key>Video_Codec_List</key>
+	<string>Video Codec List</string>
+	<key>Video_Language_List</key>
+	<string>Video Language List</string>
+	<key>WrittenBy</key>
+	<string>Written by</string>
+	<key>Written_Date</key>
+	<string>Written Date</string>
+	<key>Written_Location</key>
+	<string>Written Location</string>
+</dict>
+</plist>
