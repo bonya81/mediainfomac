@@ -1,0 +1,1 @@
+MediaInfo Mac does just one thing: it gives you a lot of information about multimedia files, even files that QuickTime can't read, and it does that by using a custom Universal Binary build of the linux library "libmediainfo" by Jerome Martinez as its core.
